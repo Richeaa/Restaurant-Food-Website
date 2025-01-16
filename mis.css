@@ -1153,7 +1153,7 @@ h5 {
 } 
 
 .subchoice1 {
-    background-image : url(../mis/bali/bg3.jpg);
+    background-image : url('bali/bg3.jpg');
     background-size : cover;
     background-position : center;
     width : auto;
@@ -1180,7 +1180,7 @@ h5 {
 }
 
 .subchoice4 {
-    background-image : url(../mis/makassar/bg1.jpg);
+    background-image : url('makassar/bg1.jpg');
     background-size : cover;
     background-position : center;
     width : auto;
