@@ -2,7 +2,7 @@
 session_start();
 $error = false;
 
-$conn = mysqli_connect("localhost", "root", "", "mis");
+$conn = mysqli_connect("localhost", "root", "mysql", "mis");
 
 if (isset($_POST["login"])) {
     $username = $_POST["username"];

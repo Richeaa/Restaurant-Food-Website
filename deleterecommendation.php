@@ -2,7 +2,7 @@
 
 if(isset($_GET["recommend_id"])) {
 
-    $conn = mysqli_connect('localhost', 'root', '', 'mis');
+    $conn = mysqli_connect('localhost', 'root', 'mysql', 'mis');
     
 
     $recommendid = $_GET["recommend_id"];

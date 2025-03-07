@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', '', 'mis');
+$conn = mysqli_connect('localhost', 'root', 'mysql', 'mis');
 
 function registrasi($data)
 {
@@ -25,7 +25,8 @@ function registrasi($data)
     $password = password_hash($password, PASSWORD_DEFAULT);
 
 
-    mysqli_query($conn, "INSERT INTO user VALUES ('', '$username', '$password')");
+    mysqli_query($conn, "INSERT INTO user (username, password) VALUES ('$username', '$password')");
+
 
     header("Location: login.php");
     exit();

@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', '', 'mis');
+$conn = mysqli_connect('localhost', 'root', 'mysql', 'mis');
 
 
 if (isset($_POST['b'])) {
@@ -41,7 +41,6 @@ session_start();
                 <li><a href="update.php">Restaurant of The Week</a></li>
                 <li><a href="option.php">Dining Options</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
-                <li><a href="recommendation.php">Recommendation</a></li>
                 <?php
                 if (isset($_SESSION['username'])) {
                     echo "<li><a href='#'>" . $_SESSION['username'] . "</a><a href='logout.php'><i class='ri-logout-box-line'></i></a></li>";

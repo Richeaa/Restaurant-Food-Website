@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', '', 'mis');
+$conn = mysqli_connect('localhost', 'root', 'mysql', 'mis');
 
 $result = mysqli_query($conn, 'SELECT * FROM recommendation');
 

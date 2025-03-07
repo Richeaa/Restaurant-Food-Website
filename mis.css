@@ -407,20 +407,28 @@ h5 {
     font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-@media screen and (max-width : 400px){
+
+
+@media screen and (max-width : 768px) {
     .header {
-        flex-direction : column;
-        height : auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     .navbar {
-        margin-top : 10px;
-        flex-wrap : wrap;
-        gap : 1em;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .navbar li {
+        text-align: center;
+        padding: 0.5rem 0;
     }
 
     .text {
-        display : none;
+        display :none;
     }
 
     .top, .middle, .bottom {
@@ -436,13 +444,21 @@ h5 {
         width : 100%;
     }
 
+    .topic4 {
+        order:2;
+    }
+
+    .topic5 {
+        order:1;
+    }
+
     .tanya2 {
         padding-right : 50px;
     }
 
-    .topic7 {
+    .topic, .topic5, .topic7 {
         width : 100%;
-        height : auto;
+        height : 450px;
     }
 
     .main3 {
@@ -467,6 +483,16 @@ h5 {
         height : 500px;
     }
 
+    .blok1 {
+        width: auto; 
+        margin: 20px 0;
+        text-align: center; 
+    }
+
+    .blok3 {
+        margin-top:-20px;
+    }
+
     .blok2 {
         height : 500px;
     }
@@ -479,56 +505,8 @@ h5 {
         display : none;
     }
 
-}
-
-@media screen and (max-width : 600px) {
-    .header {
-        flex-direction : column;
-        align-items: center; 
-        height: auto; 
-    }
-
-    .navbar {
-        margin-top: 10px;
-        flex-wrap : wrap;
-        gap : 4em;
-    }
-
-    .text {
-        display : none;
-    }
-
-    .blok1 {
-        width: auto; 
-        margin: 20px 0;
-        text-align: center; 
-    }
-
-    .footer {
-        flex-wrap : wrap;
-        height : auto;  
-    }
-
-    .copyright {
-        height : auto;
-    }
-}
-
-@media screen and (max-width : 768px) {
-    .header {
-        flex-direction : column;
-        align-items: center; 
-        height: auto; 
-    }
-
-    .navbar {
-        margin-top: 10px;
-        flex-wrap : wrap;
-        gap : 4em;
-    }
-
-    .text {
-        display :none;
+    .blok7 {
+        margin-bottom:20px;
     }
 
     .footer {
@@ -763,7 +741,7 @@ h5 {
     width: 100%;
 }
 
-@media screen and (max-width : 400px) {
+@media screen and (max-width : 768px) {
     .tengah {
         width : 100%;
         height : 400px;
@@ -798,11 +776,6 @@ h5 {
         width : 100px;
     }
 
-    
-}
-
-@media screen and (max-width : 600px) {
-
     .judul, .subjudul {
         width: auto; 
         margin: 20px 0;
@@ -819,6 +792,7 @@ h5 {
     .tengah2 {
         flex-wrap : wrap;
         height : auto;
+        padding-bottom: 30px;
     }
 
     .subtengah2 {
@@ -837,35 +811,7 @@ h5 {
 
     .icon-container, .icon-container2 {
         justify-content :flex-start;
-    }
-}
-
-@media screen and (max-width : 768px) {
-
-    .judul, .subjudul {
-        width: auto; 
-        margin: 20px 0;
-        text-align: center; 
-    }
-
-    .tengah2 {
-        flex-wrap : wrap;
-        height : auto;
-    }
-
-    .subtengah2 {
-        margin-top : 50px;
-    }
-
-    .subtengah3 {
-        display : none;
-    }
-
-    .subtengah4 {
-        margin-top : 50px;
-        margin-left : 100px;
-        margin-bottom : 50px;
-    }
+    } 
 }
 
 @media screen and (max-width : 992px) {
@@ -1216,27 +1162,6 @@ h5 {
     margin-left : 30px;
 }
 
-
-@media screen and (max-width : 600px) {
-    .restoran {
-        width: auto; 
-        margin: 20px 0;
-        text-align: center; 
-    }
-
-    .choice-container {
-        height : auto;
-        gap : 3em;
-    }
-
-    .choice1 {
-        margin-top : 3em;
-    }
-
-    .choice5 {
-        margin-bottom : 3em;
-    }
-}
 
 @media screen and (max-width : 768px) {
     .restoran {
