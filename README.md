@@ -8,7 +8,7 @@ This project demonstrates core backend functionality such as **authentication**,
 
 - 🔐 **user authentication** — register and log in securely using php sessions
 - 📬 **dynamic content** — menu and recommendations are generated dynamically
-- 📱 **responsive ui** — clean layout with responsive design principles
+- 📱 **10 City** — provide 10 recommendation for each city
 
 ## 🛠 tech stack
 
