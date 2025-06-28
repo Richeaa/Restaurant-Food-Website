@@ -1,16 +1,16 @@
-# 🍽️ AkuLapar — Food Recommendation Website (PHP-Based)
+#🍽️ AkuLapar — Food Recommendation Website (PHP-Based)
 
 **AkuLapar** is a web application developed using **PHP**, where users can **register, log in**, and receive **personalized notifications**. The platform aims to help users discover new and trending meals.
 
 This project was built to demonstrate core backend functionality such as **authentication**, **session management**, and **dynamic content rendering** using PHP.
 
-## 🌟 Features
+##🌟 Features
 
 - 🔐 **User Authentication** — Register and log in securely using PHP sessions.
 - 📬 **Dynamic Content** — Menu and recommendations are dynamically.
 - 📱 **Responsive UI** — Clean layout with responsive design principles.
 
-## 🛠 Tech Stack
+##🛠 Tech Stack
 
 - **PHP** — Core backend logic
 - **MySQL** — Database for storing user credentials and recommendation data
